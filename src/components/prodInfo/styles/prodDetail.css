@@ -1,0 +1,41 @@
+.proddetail{
+    min-width: 250px;
+    max-width: 400px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 15px;
+}
+.proddetail_title{
+    padding: 10px 20px;
+}
+.proddetail_container{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.proddetail_list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.proddetail_item:first-child{
+    color: gray;
+}
+.proddetail_item:last-child{
+    padding: 20px;
+}
+.proddetail_buttons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center;
+}
+.proddetail_quantity{
+    grid-column: span 3;
+}
+.proddtail_btn{
+    background-color: red;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
