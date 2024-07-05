@@ -34,7 +34,7 @@ const Login = () => {
         token ?
           <button onClick={handleLogout}>Logout</button>
           :
-          <div>
+          <div className='container'>
             <form onSubmit={handleSubmit(submit)}>
               <div>
                 <label htmlFor='email'>Email</label>

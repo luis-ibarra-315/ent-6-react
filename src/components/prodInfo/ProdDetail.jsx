@@ -43,7 +43,10 @@ const handleAddCart = () => {
       <button  className= 'proddetail_plus'onClick={handlePlus}>+</button>
      </div>
      </div>
-     <button className='proddtail_btn' onClick={handleAddCart}>Add to cart</button>
+     <div  className='proddtail_btn'>
+      
+     <button onClick={handleAddCart}>Add to cart</button>
+     </div>
     </div>
   )
 }

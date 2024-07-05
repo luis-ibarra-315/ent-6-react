@@ -29,7 +29,7 @@ const handlePlus = () => {
 }
 
   return (
-   
+   <div className='items-container'>
    <article className='itemcart'>
     <h3 className='itemcart_title'>{prod.product?.title}</h3>
     <filter className='itemcart_img'>
@@ -40,9 +40,12 @@ const handlePlus = () => {
       <span>{prod.quantity}</span>
       <button onClick={handlePlus}>+</button>
     </div>
-    <button onClick={handleDelete} className='itemcart_btn'>delete</button>
+   <div>
+   <button onClick={handleDelete} className='itemcart_btn'>delete</button>
+   </div>
     <p className='itemcart_total'>total: $ <span>{prod.product?.price * prod.quantity}</span></p>
    </article>
+   </div>
   )
 }
 

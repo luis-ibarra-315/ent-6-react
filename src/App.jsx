@@ -23,7 +23,7 @@ function App() {
         <Route path='/product/:id' element={<ProdInfo/>} />
         <Route element={<ProtectedRoutes/>}>
           <Route path='/cart' element={<CartPage/>} />
-          <Route path='/purchases' element={<Purchases/>} />
+          <Route path='/purchases' element={<HomePage/>} />
         </Route>
         <Route path='*' element={<h2>this route not exist</h2>}/>
       </Routes>

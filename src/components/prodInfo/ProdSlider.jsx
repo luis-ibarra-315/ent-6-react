@@ -14,7 +14,7 @@ const ProdSlider = ({product}) => {
       {
         product?.images.map(image =>(
           <SplideSlide key={image.id}>
-            <img src={image.url} alt = {`image.id`}/>
+            <img width={250} src={image.url} alt = {`image.id`}/>
             </SplideSlide>
         ))
 

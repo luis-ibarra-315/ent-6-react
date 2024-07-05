@@ -31,6 +31,7 @@ useEffect(() => {
   return (
     <div className='cartpege'>
         <div className='cartpage_container'>
+        
       {
         cart.map(prod => (
           <ItemCart  

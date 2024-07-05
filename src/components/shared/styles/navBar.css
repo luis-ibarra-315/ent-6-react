@@ -1,14 +1,20 @@
 .navbar{ 
     padding: 0 20px;
-    position: fixed;
+
     z-index: 10;
     background-color:orange ;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 .navbar_list{
  display: flex;
  gap: 20px;
+}
+
+
+.navbar_title{
+    color: white;
 }

@@ -25,17 +25,25 @@
     padding: 20px;
 }
 .proddetail_buttons{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    place-items: center;
+  
+    max-width: 50px;
+}
+
+.proddetail_buttons button{
+    max-width: 50px;
 }
 .proddetail_quantity{
     grid-column: span 3;
 }
 .proddtail_btn{
-    background-color: red;
-    color: white;
+  
+
     width: 100%;
-    padding: 10px;
+
+    text-align: center;
+}
+
+.proddtail_btn button{
+    width: 90%;
+    background-color: red;
 }
